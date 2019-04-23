@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>About</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <header>
+      <!-- Nav bar -->
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light container justify-content-between">
+          <a class="navbar-brand" href="#">Emily Baumgartner</a>
+          
+          <!-- I added "float-right" but it's not working -->
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- I added this justify content between with the div and it seems to be needed to work -->
+            <div class="justify-content-between">
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+    </header>
+
+    <!-- Start of main content -->
+    <div class="container">
+      
+      <!-- About me row -->
+      <div class="row">
+        <div class="col-sm">
+          <h1>About me</h1>
+        </div>
+      </div>
+
+      <!-- Photo and text row -->
+      <div class="row">
+        <div class="col-md-12 pull-left"  >
+            <img src="assets/images/photoOfEmily.jpg" alt="photo of Emily" class="img-thumbnail float-left mr-2">
+
+            <!-- what is my text not floating next to my image? -->
+            <div class="pull-left">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio recusandae doloribus ullam nostrum explicabo similique aliquid, inventore, tempora eaque, impedit dolores ad rerum iste! Explicabo ex unde ipsa omnis.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio recusandae doloribus ullam nostrum explicabo similique aliquid, inventore, tempora eaque, impedit dolores ad rerum iste! Explicabo ex unde ipsa omnis.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio recusandae doloribus ullam nostrum explicabo similique aliquid, inventore, tempora eaque, impedit dolores ad rerum iste! Explicabo ex unde ipsa omnis.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio recusandae doloribus ullam nostrum explicabo similique aliquid, inventore, tempora eaque, impedit dolores ad rerum iste! Explicabo ex unde ipsa omnis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+          
+          
+        
+
+
+
+
+    <div class="footer-margin">
+      <footer class="card-footer bg-dark footer-font-style text-muted footer-position"><a href="https://github.com/josephcardillo/shipping-app">Github</a>
+      </footer>
+    </div>
+
+
 </body>
 </html>
