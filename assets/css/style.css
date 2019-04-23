@@ -1,3 +1,45 @@
-.justify-content-between, .navbar {
-    border: 3px solid pink;
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 3%;
+    text-decoration: none;
+    margin: 0px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
 }
+
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar {
+    padding-bottom: 0px;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+
+
+header {
+    border-bottom: 3px solid #cccccc;
+    margin-bottom: 1%;
+    color: #ffffff;
+    width: 100%;
+}
+
+.background {
+    background-image: url(../images/cross_scratches.png);
+    min-height: 85vh;
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+.container-eb {
+    border: 1px solid #CCCCCC;
+    padding: 2%;
+    margin-top: 1%;
+}
+
