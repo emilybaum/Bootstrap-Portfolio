@@ -23,11 +23,15 @@
 }
 
 
-
-.background {
+body {
     background-image: url(../images/cross_scratches.png);
     min-height: 85vh;
 }
+
+/* .background {
+    background-image: url(../images/cross_scratches.png);
+    min-height: 85vh;
+} */
 
 .container {
     background-color: #ffffff;
@@ -47,17 +51,18 @@ h1 {
 }
 
 .bannerAbsolute-eb {
-    /* position: absolute; */
+    position: absolute;
     /* color: #ffffff; */
-    /* padding: 20px 0; */
-    z-index: 1;
+    /* padding: 10px 0px; */
+    /* padding-bottom: 10px; */
+    z-index: 2;
     background: #4aaaa5;
-    /* left: 0px;*/
-    top: 10px;
-    /* width: 300px; */
-    /* text-align: center; */
-    /* font-size: 18px; */
-    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+    /* left: 74px; */
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 
