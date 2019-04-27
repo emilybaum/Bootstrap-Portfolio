@@ -29,8 +29,6 @@ body {
 }
 
 
-
-
 .container {
     background-color: #ffffff;
 }
@@ -40,7 +38,6 @@ body {
    
 }
 
-/* why can't I use .EB-h1??? */
 h1 {
     border-bottom: 3px solid #CCCCCC;
     color: #4aaaa5;
@@ -57,10 +54,16 @@ h1 {
     text-align: center;
     font-size: 1rem;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
 }
 
-a {
+a.white {
     text-decoration: none;
+    color: white;
+}
+
+.bannerAbsolute-eb:hover {
+    background: #CCCCCC;
 }
 
 html {
