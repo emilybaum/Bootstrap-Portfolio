@@ -28,10 +28,8 @@ body {
     min-height: 85vh;
 }
 
-/* .background {
-    background-image: url(../images/cross_scratches.png);
-    min-height: 85vh;
-} */
+
+
 
 .container {
     background-color: #ffffff;
@@ -52,12 +50,8 @@ h1 {
 
 .bannerAbsolute-eb {
     position: absolute;
-    /* color: #ffffff; */
-    /* padding: 10px 0px; */
-    /* padding-bottom: 10px; */
     z-index: 2;
     background: #4aaaa5;
-    /* left: 74px; */
     bottom: 25px;
     width: 100%;
     text-align: center;
@@ -65,13 +59,33 @@ h1 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 
-#footer {  
+html {
+    /* position: relative; */
+    /* height: 100%; */
+}
+
+.contentHeight-eb {
+    min-height: 85vh;
+}
+
+.footerEmily {  
     border-top: 4px solid #4aaaa5;
+}
+
+.footer-text-eb {
+    font-size: 10px;
 }
 
 
 .bg-dark {
     background-color: #666666!important;
     
+}
+
+.instagram {
+    width: 100px;
 }

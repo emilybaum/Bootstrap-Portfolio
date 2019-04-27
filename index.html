@@ -1,98 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    
-    <header class="eb-header mb-1">
-      <!-- Nav bar -->
-  <!-- <div class="justify-content-between"> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light container justify-content-between pb-0 pr-0 pl-0">
-          <a class="navbar-brand font-weight-bold px-4 py-4 mx-0 my-0" id=myName href="index.html">Emily Baumgartner</a>
-                
-            <!-- 
-              MOVED THE BUTTON AFTER THE UL
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button> -->
-  <!-- </div> -->
-            <!-- I added this justify content between with the div and it seems to be needed to work -->
-            <div class="justify-content-between">
 
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+  <!-- input script details for the drop-down nav -->
+
+</head>
+
+<body>
+  <header class="eb-header mb-1">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container justify-content-between pb-0 pr-0 pl-0">
+      <a class="navbar-brand font-weight-bold px-4 py-4 mx-0 my-0" id=myName href="index.html">Emily Baumgartner</a>
+
+      <!-- I added this justify content between with the div and it seems to be needed to work -->
+      <div class="justify-content-between">
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- background -->
+  <div class="background">
+
+    <!-- Start of both flex boxes -->
+    <div class="d-flex flex-column justify-content-between contentHeight-eb">
+
+      <!-- flexbox 1A -->
+      <div>
+
+        <!-- Start of main content -->
+        <div class="container px-4 py-4 mt-2 mb-2 container-eb">
+
+          <!-- About me ROW -->
+          <div class="row">
+            <div class="col-sm">
+              <h1 class="EB-h1">About me</h1>
+            </div>
+          </div>
+
+          <!-- Photo and About Me content ROW -->
+          <div class="row">
+            <div class="col-md-12 pull-left">
+              <!-- Photo  -->
+              <img src="assets/images/photoOfEmily.jpg" alt="photo of Emily" class="img-thumbnail float-left mr-4">
+
+              <!-- About Me content -->
+              <div class="pull-left">
+                <p class="paragraph-eb">Hi there! Some things you should know about me are that I love to <strong>travel
+                    the world</strong> (always taking recommendations), am a <strong>DIY project aficionado</strong>, am
+                  obsessed with <strong>IKEA</strong> (so much), have spent a few years playing <strong>competitive
+                    dodgeball</strong>, genuinely love <strong>helping people</strong>, find myself <strong>always
+                    learning something</strong> about something, enjoy <strong>good documentaries</strong> over many
+                  movies, work at <strong>LinkedIn</strong> (love it), and I am insanely <strong>curious about how stuff
+                    works</strong>. When I find a problem, I can’t rest until I understand what the dealio is, or even
+                  better, if I’ve got a solution for it. </p>
+                <p class="paragraph-eb">I believe that there is always a way to solution for anything, even if that is
+                  not what you were originally thinking it would be. Here’s to hoping that helps with the coding and
+                  then eventually leads me down a very exciting and very technical path. Coding has been one of my
+                  bucket list items for the past few years, and I’m so excited to finally be learning!</p>
+
+
               </div>
             </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </nav>
-    </header>
-
-<!-- background -->
-  <div class="background">
-    <!-- why is there a bit of white that is not covered by the background? -->
-
-    <!-- Start of main content -->
-    <div class="container px-4 py-4 mt-2 mb-2 container-eb">
-      
-      <!-- About me ROW -->
-      <div class="row">
-        <div class="col-sm">
-          <h1 class="EB-h1">About me</h1>
-        </div>
-      </div>
-
-      <!-- Photo and About Me content ROW -->
-      <div class="row">
-        <div class="col-md-12 pull-left">
-            <!-- Photo  -->
-            <img src="assets/images/photoOfEmily.jpg" alt="photo of Emily" class="img-thumbnail float-left mr-4">
-
-            <!-- About Me content -->
-            <div class="pull-left">
-              <p>Hi there! Some things you should know about me are that I love to <strong>travel the world</strong> (always taking recommendations), am a <strong>DIY project aficionado</strong>, am obsessed with <strong>IKEA</strong> (so much), have spent a few years playing <strong>competitive dodgeball</strong>, genuinely love <strong>helping people</strong>, find myself <strong>always learning something</strong> about something, enjoy <strong>good documentaries</strong> over many movies, work at <strong>LinkedIn</strong> (love it), and I am insanely <strong>curious about how stuff works</strong>. When I find a problem, I can’t rest until I understand what the dealio is, or even better, if I’ve got a solution for it. </p>
-              <p>I believe that there is always a way to solution for anything, even if that is not what you were originally thinking it would be. Here’s to hoping that helps with the coding and then eventually leads me down a very exciting and very technical path. Coding has been one of my bucket list items for the past few years, and I’m so excited to finally be learning!</p>
-              
           </div>
-        </div>
-      </div>
-    </div>
 
-  </div>  <!-- background div -->
-          
-        
+        </div> <!-- close main content container div -->
+      </div> <!-- end of flexbox 1A -->
 
+      <!-- Flexbox 1B -->
+      <div>
+        <footer class="footer footerEmily text-white bg-dark text-center w-100 pb-1 mb-0 pt-2 mt-5 footer-text-eb">
+          <p class="mb-1">
+            <a href="https://www.linkedin.com/in/emilybaum/" target="_blank"><img class="socialLinks mb-0 mx-1 my-1"
+                src="assets/images/in-logo.png"></a>
+            <a class="instagram" href="https://www.instagram.com/e_baum" target="_blank"><img
+                class="socialLinks mb-0 mx-1 my-1" src="assets/images/instagram-logo-new.png" width="25px"></a>
+            <a href="https://www.facebook.com/Baumgartner.Emily" target="_blank"><img class="socialLinks mb-0 mx-1 my-1"
+                src="assets/images/facebook-logo.png"></a>
+          </p>
+          <p class="mb-1">Copyright &#9400; Emily Baumgartner</p>
+        </footer>
 
+      </div> <!-- end flexbox 1B -->
 
-    <!-- Footer -->
-    <div class="footer-margin">
-      <footer id="footer" class="text-white card-footer bg-dark footer-position text-center" >
-        <p>
-          <a href="https://www.linkedin.com/in/emilybaum/" target="_blank" ><img class="socialLinks" src="assets/images/in-logo.png"></a>
-          <a href="https://www.instagram.com/e_baum" target="_blank" ><img class="socialLinks" src="assets/images/instagram-logo-png-25.png"></a>
-          <a href="https://www.facebook.com/Baumgartner.Emily" target="_blank" ><img class="socialLinks" src="assets/images/facebook-logo.png"></a>
-        </p>
-        <p>Copyright &#9400; Emily Baumgartner</p>
-      </footer>
-    </div>
+    </div> <!-- both flexboxes 1A and 1B-->
 
+  </div> <!-- background div -->
 
 </body>
+
 </html>
