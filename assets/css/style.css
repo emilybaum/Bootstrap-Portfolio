@@ -45,6 +45,15 @@ h1 {
     font-size: 2em;
 }
 
+.submit-eb {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.img-fluid {
+    border: 3px solid #666666;
+}
+
 .bannerAbsolute-eb {
     position: absolute;
     z-index: 2;
@@ -65,7 +74,6 @@ a.white {
 .bannerAbsolute-eb:hover {
     background: #666666;
 }
-
 
 .contentHeight-eb {
     min-height: 85vh;
