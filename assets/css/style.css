@@ -76,7 +76,7 @@ a.white {
 }
 
 .contentHeight-eb {
-    min-height: 85vh;
+    min-height: 95vh;
 }
 
 .footerEmily {  
@@ -93,6 +93,6 @@ a.white {
     
 }
 
-.instagram {
-    width: 100px;
+.socialLinks {
+    width: 20px;
 }
