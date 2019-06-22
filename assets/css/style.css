@@ -1,25 +1,29 @@
 /* 
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Open Sans Condensed', sans-serif;
-*/
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Raleway', sans-serif; (with 400,400i,700)
+ */
 
 .navbar-brand {
     background-color: #4aaaa5;
-    text-decoration: none;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
+.navbar-brand:hover {
+    background: #666666;
+}
+
+#myName {
+    font-family: 'Berkshire Swash', cursive;
+}
 
 .navbar-light .navbar-brand {
     color: #ffffff;
 }
 
-#myName {
-    font-family: 'Open Sans Condensed', sans-serif;
+.nav-link {
+    font-family: 'Raleway', sans-serif;
 }
-
 
 .eb-header {
     border-bottom: 3px solid #cccccc;
@@ -42,15 +46,17 @@ body {
     background-color: #ffffff;
 }
 
-.container-eb {
-    border: 1px solid #CCCCCC;
-   
+.paragraph-eb p {
+    font-family: 'Raleway', sans-serif;
 }
 
-h1 {
-    border-bottom: 3px solid #CCCCCC;
+.container-eb {
+    border: 1px solid #CCCCCC;
+}
+
+.EB-h1 {
     color: #4aaaa5;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Berkshire Swash', cursive;
     font-size: 2em;
 }
 
@@ -75,7 +81,7 @@ h1 {
     width: 100%;
     text-align: center;
     font-size: 1rem;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
 }
 
@@ -103,6 +109,7 @@ a.white {
     margin: 0px;
     font-size: 12px;
     padding: 0px;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* including just to have a little space after the list */
@@ -116,10 +123,10 @@ a.white {
 
 .footer-text-eb {
     font-size: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .img-group {
-    /* border: 3px solid red; */
     background: #66666610;
     margin-bottom: 1rem;
     padding-top: .5rem;
@@ -130,8 +137,7 @@ a.white {
 
 
 .bg-dark {
-    background-color: #666666!important;
-    
+    background-color: #666666!important;   
 }
 
 .socialLinks {
