@@ -1,3 +1,8 @@
+/* 
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
 .navbar-brand {
     background-color: #4aaaa5;
     text-decoration: none;
@@ -9,6 +14,10 @@
 
 .navbar-light .navbar-brand {
     color: #ffffff;
+}
+
+#myName {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
@@ -41,7 +50,7 @@ body {
 h1 {
     border-bottom: 3px solid #CCCCCC;
     color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 2em;
 }
 
@@ -76,7 +85,25 @@ a.white {
 }
 
 .contentHeight-eb {
-    min-height: 95vh;
+    min-height: 90vh;
+}
+
+.code-link {
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+    width: 75%;
+}
+
+.code-link p, .code-link ul li  {
+    color: #666666;
+    margin: 0px;
+    font-size: 12px;
+    padding: 0px;
+}
+
+/* including just to have a little space after the list */
+.code-link p {
+    padding-top: 5px;
 }
 
 .footerEmily {  
@@ -85,6 +112,16 @@ a.white {
 
 .footer-text-eb {
     font-size: 10px;
+}
+
+.img-group {
+    /* border: 3px solid red; */
+    background: #66666610;
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 2%;
 }
 
 
