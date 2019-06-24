@@ -14,6 +14,10 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+  <!-- Animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -36,7 +40,7 @@
   
       <div class="justify-content-between">
   
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="pl-2 collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="index.html">About</a>
@@ -68,28 +72,37 @@
 
         <!-- Start of main content -->
         <div class="container px-4 py-4 mt-2 mb-2 container-eb">
+          <div class="row">
+            <div class="col-sm">
+            <h1 class="animated slideInRight EB-h1">Contact</h1>
+            <hr>
+            </div>
+          </div>
+          
+          <div class="row">
+              <div class="col-sm-12">
+                <h2 class="EB-h2">I'm pretty easy to find</h2>
+              </div>
+          </div>
 
-          <!-- Form -->
-          <form>
-            <!-- Name -->
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Name</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+          <div class="row justify-content-around">
+            <div class="col-sm-3 text-center  contact-group">
+              <p class="contact-details">See me on github</p>
+              <img src="assets/images/github-icon.jpg">
             </div>
 
-            <!-- Email -->
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Email</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <div class="col-sm-3 text-center contact-group">
+              <p class="contact-details">Connect on LinkedIn</p>
+              <img src="assets/images/LI-In-Bug.png">
             </div>
 
-            <!-- Messgae -->
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="col-sm-3 text-center contact-group">
+              <p class="contact-details">Shoot me and email</p>
+              <img src="assets/images/github-icon.jpg">
             </div>
-            <button type=“submit” class="btn btn-secondary text-white submit-eb">Submit</button>
-          </form>
+
+          </div>
+
 
         </div> <!-- end main content -->
       </div> <!-- end of flexbox 1A -->

@@ -1,5 +1,5 @@
 /* 
-font-family: 'Berkshire Swash', cursive;
+font-family: 'Major Mono Display', monospace;
 font-family: 'Raleway', sans-serif; (with 400,400i,700)
  */
 
@@ -14,7 +14,8 @@ font-family: 'Raleway', sans-serif; (with 400,400i,700)
 }
 
 #myName {
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2em;
 }
 
 .navbar-light .navbar-brand {
@@ -56,8 +57,15 @@ body {
 
 .EB-h1 {
     color: #4aaaa5;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Major Mono Display', monospace;
     font-size: 2em;
+}
+
+.EB-h2 {
+    font-family: 'Raleway', sans-serif;
+    text-emphasis: 700;
+    color: #4aaaa5;
+    font-size: 1.5em;
 }
 
 .submit-eb {
@@ -133,6 +141,30 @@ a.white {
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 2%;
+    width: 30%;
+}
+
+.contact-group {
+    background: #66666610;
+    margin-top: 2rem;
+    border-radius: 2%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contact-group img {
+    width: 100%;
+}
+
+.contact-details {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+
+.featured {
+    width: 45%;
 }
 
 
