@@ -63,7 +63,6 @@ body {
 
 .EB-h2 {
     font-family: 'Raleway', sans-serif;
-    text-emphasis: 700;
     color: #4aaaa5;
     font-size: 1.5em;
 }
@@ -164,7 +163,12 @@ a.white {
 }
 
 .featured {
-    width: 45%;
+    /* width: 100%; */
+}
+
+.featured-contnet {
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -174,4 +178,8 @@ a.white {
 
 .socialLinks {
     width: 20px;
+}
+
+.list-group-item {
+    margin: 10px;
 }
